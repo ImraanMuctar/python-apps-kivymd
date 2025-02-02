@@ -7,7 +7,7 @@ from kivymd.uix.screen import MDScreen, Screen
 from kivymd.uix.card import MDCard
 from kivy.properties import StringProperty, NumericProperty, ObjectProperty
 #from chatterbot import chatbot
-genai.configure(api_key="AIzaSyClM3l-2hBgWv1NdxooSpL4KlVQTo4Jp4g")
+genai.configure(api_key=your_google_api_key)
 
 class ChatMessage(MDCard):
     my_text = StringProperty()
